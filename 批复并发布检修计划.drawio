@@ -166,6 +166,17 @@
         <mxCell id="YSQlOUY1jOpPyFkPR3-t-159" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;创建停电申请单&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;并保存&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="YSQlOUY1jOpPyFkPR3-t-107">
           <mxGeometry x="30" y="490" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YSQlOUY1jOpPyFkPR3-t-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="YSQlOUY1jOpPyFkPR3-t-107" source="YSQlOUY1jOpPyFkPR3-t-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="690" />
+              <mxPoint x="310" y="690" />
+              <mxPoint x="310" y="110" />
+              <mxPoint x="400" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YSQlOUY1jOpPyFkPR3-t-161" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;检修计划和停电申请单关联表&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="YSQlOUY1jOpPyFkPR3-t-107">
           <mxGeometry x="30" y="590" width="100" height="60" as="geometry" />
         </mxCell>
@@ -241,8 +252,8 @@
             <Array as="points">
               <mxPoint x="720" y="390" />
               <mxPoint x="790" y="390" />
-              <mxPoint x="790" y="150" />
-              <mxPoint x="880" y="150" />
+              <mxPoint x="790" y="130" />
+              <mxPoint x="880" y="130" />
             </Array>
             <mxPoint x="720" y="540" as="sourcePoint" />
           </mxGeometry>
