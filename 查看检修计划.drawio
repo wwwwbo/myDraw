@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="875" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-9XbWACIWwENg5wLCgYN-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;查看巡检计划&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="70" y="40" width="800" height="1180" as="geometry" />
+          <mxGeometry x="70" y="40" width="800" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-2" value="接收请求" style="swimlane;html=1;startSize=20;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-1">
-          <mxGeometry y="20" width="160" height="1160" as="geometry">
+          <mxGeometry y="20" width="160" height="1080" as="geometry">
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -50,7 +50,7 @@
           <mxGeometry x="20" y="270" width="100" height="75" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-11" value="查询巡检计划" style="swimlane;html=1;startSize=20;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-1">
-          <mxGeometry x="160" y="20" width="160" height="1160" as="geometry" />
+          <mxGeometry x="160" y="20" width="160" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-11" target="-9XbWACIWwENg5wLCgYN-16">
           <mxGeometry relative="1" as="geometry">
@@ -64,7 +64,7 @@
           <mxGeometry x="30" y="277.5" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-21" value="查询停电范围数据" style="swimlane;html=1;startSize=20;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-1">
-          <mxGeometry x="320" y="20" width="160" height="1160" as="geometry" />
+          <mxGeometry x="320" y="20" width="160" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-21" target="-9XbWACIWwENg5wLCgYN-25">
           <mxGeometry relative="1" as="geometry">
@@ -115,55 +115,55 @@
           <mxGeometry x="30" y="780" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-29" value="查询检修计划任务" style="swimlane;html=1;startSize=20;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-1">
-          <mxGeometry x="480" y="20" width="160" height="1160" as="geometry" />
+          <mxGeometry x="480" y="20" width="160" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-9XbWACIWwENg5wLCgYN-29" source="-9XbWACIWwENg5wLCgYN-31" target="-9XbWACIWwENg5wLCgYN-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-31" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;查询&lt;br&gt;检修计划关联任务&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-29">
-          <mxGeometry x="30" y="257.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-29" source="-9XbWACIWwENg5wLCgYN-33" target="-9XbWACIWwENg5wLCgYN-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-33" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;检修设备信息&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-29">
-          <mxGeometry x="30" y="360" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="380" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-29" source="-9XbWACIWwENg5wLCgYN-35" target="-9XbWACIWwENg5wLCgYN-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-35" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;勘察信息&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-29">
-          <mxGeometry x="30" y="460" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-29" source="-9XbWACIWwENg5wLCgYN-37" target="-9XbWACIWwENg5wLCgYN-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-37" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;工序信息&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-29">
-          <mxGeometry x="30" y="560" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="580" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-29" source="-9XbWACIWwENg5wLCgYN-39" target="-9XbWACIWwENg5wLCgYN-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-39" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;检修班组&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-29">
-          <mxGeometry x="30" y="660" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="680" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-29" source="-9XbWACIWwENg5wLCgYN-41" target="-9XbWACIWwENg5wLCgYN-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-41" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;派发信息&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-29">
-          <mxGeometry x="30" y="760" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="780" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-29" source="-9XbWACIWwENg5wLCgYN-43" target="-9XbWACIWwENg5wLCgYN-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-43" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;创建人组织信息&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-29">
-          <mxGeometry x="30" y="860" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="880" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-44" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;组装&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;所有数据到检修计划对象&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-29">
-          <mxGeometry x="30" y="960" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="980" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-45" value="完善巡检计划返回数据" style="swimlane;html=1;startSize=20;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-1">
-          <mxGeometry x="640" y="20" width="160" height="1160" as="geometry" />
+          <mxGeometry x="640" y="20" width="160" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-45" source="-9XbWACIWwENg5wLCgYN-57" target="-9XbWACIWwENg5wLCgYN-48">
           <mxGeometry relative="1" as="geometry">
@@ -174,7 +174,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;检修计划对象中&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;码值转换并赋值&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-45">
-          <mxGeometry x="30" y="360" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="380" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-45" source="-9XbWACIWwENg5wLCgYN-50" target="-9XbWACIWwENg5wLCgYN-58">
           <mxGeometry relative="1" as="geometry">
@@ -182,13 +182,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-50" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;查询扩展属性&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;并组装到检修计划&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-45">
-          <mxGeometry x="30" y="460" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-57" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;组装&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;发送到调度的工作内容&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-45">
-          <mxGeometry x="30" y="260" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-58" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;成功返回&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="-9XbWACIWwENg5wLCgYN-45">
-          <mxGeometry x="30" y="1080" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="980" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9XbWACIWwENg5wLCgYN-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-1" source="-9XbWACIWwENg5wLCgYN-6" target="-9XbWACIWwENg5wLCgYN-70">
           <mxGeometry relative="1" as="geometry">
@@ -206,8 +206,8 @@
         <mxCell id="-9XbWACIWwENg5wLCgYN-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="-9XbWACIWwENg5wLCgYN-1" source="-9XbWACIWwENg5wLCgYN-44" target="-9XbWACIWwENg5wLCgYN-57">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="1060" />
-              <mxPoint x="630" y="1060" />
+              <mxPoint x="560" y="1090" />
+              <mxPoint x="630" y="1090" />
               <mxPoint x="630" y="230" />
               <mxPoint x="720" y="230" />
             </Array>
