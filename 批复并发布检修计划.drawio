@@ -261,8 +261,8 @@
         <mxCell id="YSQlOUY1jOpPyFkPR3-t-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YSQlOUY1jOpPyFkPR3-t-69" source="YSQlOUY1jOpPyFkPR3-t-155" target="YSQlOUY1jOpPyFkPR3-t-115">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="650" y="328" />
-              <mxPoint x="650" y="150" />
+              <mxPoint x="630" y="328" />
+              <mxPoint x="630" y="150" />
               <mxPoint x="720" y="150" />
             </Array>
           </mxGeometry>
@@ -275,8 +275,8 @@
         <mxCell id="YSQlOUY1jOpPyFkPR3-t-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YSQlOUY1jOpPyFkPR3-t-69" source="YSQlOUY1jOpPyFkPR3-t-156" target="YSQlOUY1jOpPyFkPR3-t-125">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="630" y="438" />
-              <mxPoint x="630" y="130" />
+              <mxPoint x="790" y="438" />
+              <mxPoint x="790" y="130" />
               <mxPoint x="880" y="130" />
             </Array>
           </mxGeometry>
