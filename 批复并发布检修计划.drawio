@@ -202,7 +202,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSQlOUY1jOpPyFkPR3-t-123" value="数据完善并保存" style="swimlane;html=1;startSize=20;" vertex="1" parent="YSQlOUY1jOpPyFkPR3-t-69">
+        <mxCell id="YSQlOUY1jOpPyFkPR3-t-123" value="保存检修计划变更" style="swimlane;html=1;startSize=20;" vertex="1" parent="YSQlOUY1jOpPyFkPR3-t-69">
           <mxGeometry x="800" y="20" width="160" height="760" as="geometry" />
         </mxCell>
         <mxCell id="YSQlOUY1jOpPyFkPR3-t-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YSQlOUY1jOpPyFkPR3-t-123" source="YSQlOUY1jOpPyFkPR3-t-125" target="YSQlOUY1jOpPyFkPR3-t-127">
