@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1235" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,59 +89,56 @@
         <mxCell id="fE4-dgEbrBtRc29Lr3Ju-103" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;待合并计划数据&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-9">
           <mxGeometry x="30" y="270" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-13" value="新计划创建" style="swimlane;html=1;startSize=20;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-1">
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-13" value="新检修计划创建" style="swimlane;html=1;startSize=20;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-1">
           <mxGeometry x="320" y="20" width="160" height="1270" as="geometry" />
-        </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-13" target="fE4-dgEbrBtRc29Lr3Ju-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="235" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-15" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fE4-dgEbrBtRc29Lr3Ju-14">
-          <mxGeometry x="-0.1597" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="fE4-dgEbrBtRc29Lr3Ju-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-13" source="fE4-dgEbrBtRc29Lr3Ju-18" target="fE4-dgEbrBtRc29Lr3Ju-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-18" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;重新生成检修计划&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;工作开始结束时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;停电开始结束时间&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-13">
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-18" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;待合并计划关联的工作任务&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-13">
           <mxGeometry x="30" y="270" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-20" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;检修计划工作&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;更新&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;计划工作开始结束时间&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-13">
-          <mxGeometry x="30" y="360" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-100" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;创建新计划&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-13">
-          <mxGeometry x="30" y="170" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-21" value="检修工作处理" style="swimlane;html=1;startSize=20;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-1">
-          <mxGeometry x="480" y="20" width="160" height="1270" as="geometry" />
-        </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-21" source="fE4-dgEbrBtRc29Lr3Ju-26" target="fE4-dgEbrBtRc29Lr3Ju-28">
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-13" source="fE4-dgEbrBtRc29Lr3Ju-20" target="fE4-dgEbrBtRc29Lr3Ju-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-23" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fE4-dgEbrBtRc29Lr3Ju-22">
-          <mxGeometry x="-0.0924" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-20" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;待合并计划关联的&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;设备&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-13">
+          <mxGeometry x="30" y="370" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-21" source="fE4-dgEbrBtRc29Lr3Ju-26" target="fE4-dgEbrBtRc29Lr3Ju-42">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="660" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="150" y="197" />
-              <mxPoint x="150" y="658" />
-              <mxPoint x="130" y="658" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-13" source="fE4-dgEbrBtRc29Lr3Ju-100" target="fE4-dgEbrBtRc29Lr3Ju-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fE4-dgEbrBtRc29Lr3Ju-24">
-          <mxGeometry x="-0.1736" relative="1" as="geometry">
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-100" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;创建新计划&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;待合并计划字段值到新计划中&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-13">
+          <mxGeometry x="30" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-13" source="fE4-dgEbrBtRc29Lr3Ju-106" target="fE4-dgEbrBtRc29Lr3Ju-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-122" value="查询到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fE4-dgEbrBtRc29Lr3Ju-117">
+          <mxGeometry x="-0.36" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-26" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;是否存在&lt;br&gt;要删除的&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;检修工作&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-21">
-          <mxGeometry x="30" y="160" width="100" height="75" as="geometry" />
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-13" source="fE4-dgEbrBtRc29Lr3Ju-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="507" />
+              <mxPoint x="10" y="660" />
+              <mxPoint x="-250" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-106" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;根据合并计划的人员id查询班组信息&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-13">
+          <mxGeometry x="30" y="470" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-116" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;组装&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;新计划字段值&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-13">
+          <mxGeometry x="30" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-121" value="未查询到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fE4-dgEbrBtRc29Lr3Ju-13">
+          <mxGeometry x="22.199004400496733" y="544.9988004955997" as="geometry" />
+        </mxCell>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-21" value="新检修计划的工作处理" style="swimlane;html=1;startSize=20;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-1">
+          <mxGeometry x="480" y="20" width="160" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="fE4-dgEbrBtRc29Lr3Ju-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-21" source="fE4-dgEbrBtRc29Lr3Ju-28" target="fE4-dgEbrBtRc29Lr3Ju-30">
           <mxGeometry relative="1" as="geometry" />
@@ -186,14 +183,6 @@
         <mxCell id="fE4-dgEbrBtRc29Lr3Ju-39" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;新增检修计划于工作任务关联&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-21">
           <mxGeometry x="30" y="730" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-21" source="fE4-dgEbrBtRc29Lr3Ju-42" target="fE4-dgEbrBtRc29Lr3Ju-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-41" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fE4-dgEbrBtRc29Lr3Ju-40">
-          <mxGeometry x="-0.6375" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fE4-dgEbrBtRc29Lr3Ju-42" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;是否存在&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;新增来字缺陷隐患&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;的检修任务&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-21">
           <mxGeometry x="30" y="620" width="100" height="75" as="geometry" />
         </mxCell>
@@ -220,6 +209,9 @@
           <mxGeometry x="-0.168" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-123" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;现场勘察任务&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;状态更新&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-21">
+          <mxGeometry x="30" y="170" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fE4-dgEbrBtRc29Lr3Ju-49" value="停电分析" style="swimlane;html=1;startSize=20;" vertex="1" parent="fE4-dgEbrBtRc29Lr3Ju-1">
           <mxGeometry x="640" y="20" width="160" height="1270" as="geometry" />
@@ -365,6 +357,16 @@
         <mxCell id="fE4-dgEbrBtRc29Lr3Ju-102" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fE4-dgEbrBtRc29Lr3Ju-101">
           <mxGeometry x="-0.8458" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fE4-dgEbrBtRc29Lr3Ju-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fE4-dgEbrBtRc29Lr3Ju-1" source="fE4-dgEbrBtRc29Lr3Ju-116" target="fE4-dgEbrBtRc29Lr3Ju-123">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="700" />
+              <mxPoint x="470" y="700" />
+              <mxPoint x="470" y="140" />
+              <mxPoint x="560" y="140" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
