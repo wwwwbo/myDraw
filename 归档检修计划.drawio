@@ -105,8 +105,26 @@
         <mxCell id="_jRmHoapX_54qESjvzcb-54" value="完成检修计划" style="swimlane;html=1;startSize=20;" vertex="1" parent="_jRmHoapX_54qESjvzcb-38">
           <mxGeometry x="480" y="20" width="160" height="910" as="geometry" />
         </mxCell>
+        <mxCell id="_jRmHoapX_54qESjvzcb-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_jRmHoapX_54qESjvzcb-54" source="_jRmHoapX_54qESjvzcb-56" target="_jRmHoapX_54qESjvzcb-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_jRmHoapX_54qESjvzcb-56" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;更新&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;检修计划记录状态为已完成&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="_jRmHoapX_54qESjvzcb-54">
           <mxGeometry x="30" y="267.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jRmHoapX_54qESjvzcb-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_jRmHoapX_54qESjvzcb-54" source="_jRmHoapX_54qESjvzcb-107" target="_jRmHoapX_54qESjvzcb-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jRmHoapX_54qESjvzcb-107" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;停电计划发送消息到mq&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="_jRmHoapX_54qESjvzcb-54">
+          <mxGeometry x="30" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jRmHoapX_54qESjvzcb-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_jRmHoapX_54qESjvzcb-54" source="_jRmHoapX_54qESjvzcb-113" target="_jRmHoapX_54qESjvzcb-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_jRmHoapX_54qESjvzcb-113" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;同步更新周计划对应的年月计划&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="_jRmHoapX_54qESjvzcb-54">
+          <mxGeometry x="30" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jRmHoapX_54qESjvzcb-115" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;给成本平台服务发送mq消息&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="_jRmHoapX_54qESjvzcb-54">
+          <mxGeometry x="30" y="570" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_jRmHoapX_54qESjvzcb-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_jRmHoapX_54qESjvzcb-38" source="_jRmHoapX_54qESjvzcb-42" target="_jRmHoapX_54qESjvzcb-80">
           <mxGeometry relative="1" as="geometry">
@@ -163,16 +181,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_jRmHoapX_54qESjvzcb-65" value="组成检修计划变更" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
+        <mxCell id="_jRmHoapX_54qESjvzcb-65" value="终止流程" style="swimlane;html=1;startSize=20;" vertex="1" parent="1">
           <mxGeometry x="720" y="50" width="160" height="910" as="geometry" />
         </mxCell>
         <mxCell id="_jRmHoapX_54qESjvzcb-66" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;成功返回&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="_jRmHoapX_54qESjvzcb-65">
           <mxGeometry x="30" y="840" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_jRmHoapX_54qESjvzcb-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_jRmHoapX_54qESjvzcb-65" target="_jRmHoapX_54qESjvzcb-66">
+        <mxCell id="_jRmHoapX_54qESjvzcb-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_jRmHoapX_54qESjvzcb-65" source="_jRmHoapX_54qESjvzcb-117" target="_jRmHoapX_54qESjvzcb-66">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="330" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_jRmHoapX_54qESjvzcb-117" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;更新&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;检修计划记录状态为已完成&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="_jRmHoapX_54qESjvzcb-65">
+          <mxGeometry x="30" y="270" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_jRmHoapX_54qESjvzcb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_jRmHoapX_54qESjvzcb-42" target="_jRmHoapX_54qESjvzcb-66">
           <mxGeometry relative="1" as="geometry">
@@ -187,6 +208,16 @@
         <mxCell id="_jRmHoapX_54qESjvzcb-83" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_jRmHoapX_54qESjvzcb-43">
           <mxGeometry x="-0.965" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jRmHoapX_54qESjvzcb-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_jRmHoapX_54qESjvzcb-115" target="_jRmHoapX_54qESjvzcb-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="720" />
+              <mxPoint x="710" y="720" />
+              <mxPoint x="710" y="270" />
+              <mxPoint x="800" y="270" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
