@@ -1,9 +1,44 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="Tp7xa5o2OnDCm1LWRl66">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;作废操作票&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="320" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-2" value="接收请求" style="swimlane;html=1;startSize=20;" vertex="1" parent="Nq9Iq9DLjzyZEcB3JR-a-1">
+          <mxGeometry y="20" width="160" height="490" as="geometry">
+            <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Nq9Iq9DLjzyZEcB3JR-a-2">
+          <mxGeometry x="20" y="65" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-4" value="更新操作票主记录" style="swimlane;html=1;startSize=20;" vertex="1" parent="Nq9Iq9DLjzyZEcB3JR-a-1">
+          <mxGeometry x="160" y="20" width="160" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nq9Iq9DLjzyZEcB3JR-a-4" source="Nq9Iq9DLjzyZEcB3JR-a-6" target="Nq9Iq9DLjzyZEcB3JR-a-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-6" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;转换请求参数为&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票主记录数据对象&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Nq9Iq9DLjzyZEcB3JR-a-4">
+          <mxGeometry x="30" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Nq9Iq9DLjzyZEcB3JR-a-4" source="Nq9Iq9DLjzyZEcB3JR-a-8" target="Nq9Iq9DLjzyZEcB3JR-a-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;更新&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票主记录&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Nq9Iq9DLjzyZEcB3JR-a-4">
+          <mxGeometry x="30" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;成功返回&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Nq9Iq9DLjzyZEcB3JR-a-4">
+          <mxGeometry x="30" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nq9Iq9DLjzyZEcB3JR-a-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Nq9Iq9DLjzyZEcB3JR-a-1" source="Nq9Iq9DLjzyZEcB3JR-a-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="240" as="sourcePoint" />
+            <mxPoint x="240" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
