@@ -1,9 +1,476 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="-qbW6qil0ktv-gI08MyN">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;新增工作票&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="800" height="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-2" value="接收请求" style="swimlane;html=1;startSize=20;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-1">
+          <mxGeometry y="20" width="160" height="1440" as="geometry">
+            <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-2" source="i-26Kb5VB1W_zBhbMel1-4" target="i-26Kb5VB1W_zBhbMel1-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="167.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-4" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-2">
+          <mxGeometry x="30" y="65" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-5" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;不允许appId&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;为空且&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;appId为空&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-2">
+          <mxGeometry x="30" y="365" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-2" source="i-26Kb5VB1W_zBhbMel1-5" target="i-26Kb5VB1W_zBhbMel1-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="980" as="targetPoint" />
+            <mxPoint x="70" y="580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-6">
+          <mxGeometry x="-0.24" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;失败返回&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-2">
+          <mxGeometry x="30" y="1360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-2" source="i-26Kb5VB1W_zBhbMel1-10" target="i-26Kb5VB1W_zBhbMel1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;获取应用id&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-2">
+          <mxGeometry x="30" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-2" source="i-26Kb5VB1W_zBhbMel1-12" target="i-26Kb5VB1W_zBhbMel1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;查询配置项checkAppId&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-2">
+          <mxGeometry x="30" y="260" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-13" value="获取人员和单位信息" style="swimlane;html=1;startSize=20;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-1">
+          <mxGeometry x="160" y="20" width="160" height="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-15" target="i-26Kb5VB1W_zBhbMel1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;获取用户信息&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="157.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-17" target="i-26Kb5VB1W_zBhbMel1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-17" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;工作票参数对象创建并赋值用户相关字段&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="260" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-18">
+          <mxGeometry x="-0.3847" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-22" target="i-26Kb5VB1W_zBhbMel1-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="398" />
+              <mxPoint x="10" y="780" />
+              <mxPoint x="80" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-20">
+          <mxGeometry x="-0.9702" y="-2" relative="1" as="geometry">
+            <mxPoint x="-3" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-22" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;工作负责人所在班组id为空且工作负责人id不为空&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="360" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-27" target="i-26Kb5VB1W_zBhbMel1-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-24" value="查到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-23">
+          <mxGeometry x="-0.3156" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-27" target="i-26Kb5VB1W_zBhbMel1-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="518" />
+              <mxPoint x="20" y="680" />
+              <mxPoint x="80" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;查不到&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-25">
+          <mxGeometry x="-0.9061" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-27" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;根据工作负责人id查询用户信息&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="480" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-28" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;票对象赋值工作负责人所在班组ID、名称等字段&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-30" target="i-26Kb5VB1W_zBhbMel1-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-30" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;根据工作负责人id&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;查询委外人员给票对象&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;赋值相关字段&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="700" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-32" target="i-26Kb5VB1W_zBhbMel1-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-32" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;根据工作负责人id&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;查询委外人员给票对象&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;赋值相关字段&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="800" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-13" source="i-26Kb5VB1W_zBhbMel1-34" target="i-26Kb5VB1W_zBhbMel1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-34" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;根据用户id获取单位id、名称，部门id、名称&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="900" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-35" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;票对象赋值单位id、名称，部门id、名称&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-13">
+          <mxGeometry x="30" y="1000" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-36" value="操作票数据组装-1" style="swimlane;html=1;startSize=20;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-1">
+          <mxGeometry x="320" y="20" width="160" height="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-41" target="i-26Kb5VB1W_zBhbMel1-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-37">
+          <mxGeometry x="-0.2837" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-41" target="i-26Kb5VB1W_zBhbMel1-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="187" />
+              <mxPoint x="10" y="350" />
+              <mxPoint x="80" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-40" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-39">
+          <mxGeometry x="-0.898" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-41" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;请求参数中&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;检修计划id不为空&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="150" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-43" target="i-26Kb5VB1W_zBhbMel1-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-43" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;调用查看检修计划服务，获取检修设备信息，组装到参数对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-48" target="i-26Kb5VB1W_zBhbMel1-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-45" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-44">
+          <mxGeometry x="-0.3559" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-48" target="i-26Kb5VB1W_zBhbMel1-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="403" />
+              <mxPoint x="10" y="790" />
+              <mxPoint x="80" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-47" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-46">
+          <mxGeometry x="-0.8979" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;请求参数中&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;工作地点id和电站类型不为空&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="365" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" target="i-26Kb5VB1W_zBhbMel1-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-51" target="i-26Kb5VB1W_zBhbMel1-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-51" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;调用查询电网设备台账列表服务，获取操作票工作地点数据，组装到参数对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-56" target="i-26Kb5VB1W_zBhbMel1-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-52">
+          <mxGeometry x="-0.3778" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-56" target="i-26Kb5VB1W_zBhbMel1-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="847" />
+              <mxPoint x="10" y="1020" />
+              <mxPoint x="80" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-55" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-54">
+          <mxGeometry x="-0.9067" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-56" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;请求参数有维护班组ID但没有维护班组名称&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="810" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-61" target="i-26Kb5VB1W_zBhbMel1-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-58" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-57">
+          <mxGeometry x="-0.4667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="617.8235294117646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-60" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-59">
+          <mxGeometry x="-0.237" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-61" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票工作地点数据为空，且电站类型为变电站或&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;换流站&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="580" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-62" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;调用es查询服务，获取操作票工作地点数据，组装到参数对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="700" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-64" target="i-26Kb5VB1W_zBhbMel1-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-64" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;调用接口查询班组信息，并组装到请求参数对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-36" source="i-26Kb5VB1W_zBhbMel1-67" target="i-26Kb5VB1W_zBhbMel1-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-66" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-65">
+          <mxGeometry x="-0.0118" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-67" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;请求参数有运维单位ID但没有运维单位名称&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="1050" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-68" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;调用接口查询班组信息，并组装到请求参数对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-36">
+          <mxGeometry x="30" y="1170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-69" value="操作票数据组装-2" style="swimlane;html=1;startSize=20;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-1">
+          <mxGeometry x="480" y="20" width="160" height="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-71" target="i-26Kb5VB1W_zBhbMel1-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-71" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;根据专业类型&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;设置票名称和操作票种类&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-76" target="i-26Kb5VB1W_zBhbMel1-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-73" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-72">
+          <mxGeometry x="-0.3067" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-76" target="i-26Kb5VB1W_zBhbMel1-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="298" />
+              <mxPoint x="10" y="760" />
+              <mxPoint x="80" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-75" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-74">
+          <mxGeometry x="-0.9755" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-76" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;配电专业或者&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;一键顺控类型为常规&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="260" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-78" target="i-26Kb5VB1W_zBhbMel1-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-78" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;调度令序号设置&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-80" target="i-26Kb5VB1W_zBhbMel1-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-80" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作设备的操作类型名称设置&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-82" target="i-26Kb5VB1W_zBhbMel1-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-82" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票操作项的调度指令号设置&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-84" target="i-26Kb5VB1W_zBhbMel1-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-84" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票的总步骤数设置&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="680" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-86" target="i-26Kb5VB1W_zBhbMel1-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-86" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票的操作任务文本拼接&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="780" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-69" source="i-26Kb5VB1W_zBhbMel1-88" target="i-26Kb5VB1W_zBhbMel1-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-88" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票开票风险措施卡创建&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="880" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-89" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票字段设置默认值&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-69">
+          <mxGeometry x="30" y="980" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-90" value="操作票创建保存" style="swimlane;html=1;startSize=20;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-1">
+          <mxGeometry x="640" y="20" width="160" height="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-92" target="i-26Kb5VB1W_zBhbMel1-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-92" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票主记录&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-94" target="i-26Kb5VB1W_zBhbMel1-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-94" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票工作地点&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="260" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-96" target="i-26Kb5VB1W_zBhbMel1-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-96" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票操作项&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-98" target="i-26Kb5VB1W_zBhbMel1-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-98" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;危险点及预防措施子表&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="460" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-100" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;操作票-关联设备子表&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-102" target="i-26Kb5VB1W_zBhbMel1-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-102" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;风险定级表&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="660" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-104" target="i-26Kb5VB1W_zBhbMel1-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-104" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;风险预控措施卡主表&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="760" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-106" target="i-26Kb5VB1W_zBhbMel1-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-106" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;防误云开票调用停电操作接口绑定令与票的关系&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="860" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-108" target="i-26Kb5VB1W_zBhbMel1-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-108" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;风险预控措施卡主表&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="960" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-90" source="i-26Kb5VB1W_zBhbMel1-110" target="i-26Kb5VB1W_zBhbMel1-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-110" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;保存&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;两篇流程记录表&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="1060" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-111" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;失败返回&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="i-26Kb5VB1W_zBhbMel1-90">
+          <mxGeometry x="30" y="1360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-1" source="i-26Kb5VB1W_zBhbMel1-5" target="i-26Kb5VB1W_zBhbMel1-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="423" />
+              <mxPoint x="150" y="140" />
+              <mxPoint x="240" y="140" />
+            </Array>
+            <mxPoint x="240" y="172.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-113" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-112">
+          <mxGeometry x="-0.9253" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-1" source="i-26Kb5VB1W_zBhbMel1-67" target="i-26Kb5VB1W_zBhbMel1-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="1107" />
+              <mxPoint x="470" y="130" />
+              <mxPoint x="560" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-115" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i-26Kb5VB1W_zBhbMel1-114">
+          <mxGeometry x="-0.993" y="3" relative="1" as="geometry">
+            <mxPoint y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-1" source="i-26Kb5VB1W_zBhbMel1-68" target="i-26Kb5VB1W_zBhbMel1-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1290" />
+              <mxPoint x="470" y="1290" />
+              <mxPoint x="470" y="130" />
+              <mxPoint x="560" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i-26Kb5VB1W_zBhbMel1-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i-26Kb5VB1W_zBhbMel1-1" source="i-26Kb5VB1W_zBhbMel1-89" target="i-26Kb5VB1W_zBhbMel1-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1080" />
+              <mxPoint x="630" y="1080" />
+              <mxPoint x="630" y="130" />
+              <mxPoint x="720" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
