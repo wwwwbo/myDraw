@@ -49,7 +49,7 @@
         <mxCell id="aJ3NnQ6fRwIkyQ2HddgB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="aJ3NnQ6fRwIkyQ2HddgB-11" source="aJ3NnQ6fRwIkyQ2HddgB-15" target="aJ3NnQ6fRwIkyQ2HddgB-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aJ3NnQ6fRwIkyQ2HddgB-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;通过适配服务向安检发mq消息通知&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;工作票负责人变更&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="aJ3NnQ6fRwIkyQ2HddgB-11">
+        <mxCell id="aJ3NnQ6fRwIkyQ2HddgB-15" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;通过适配服务向安监发mq消息通知&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;工作票负责人变更&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="aJ3NnQ6fRwIkyQ2HddgB-11">
           <mxGeometry x="30" y="260" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aJ3NnQ6fRwIkyQ2HddgB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="aJ3NnQ6fRwIkyQ2HddgB-11" source="aJ3NnQ6fRwIkyQ2HddgB-17" target="aJ3NnQ6fRwIkyQ2HddgB-19">
