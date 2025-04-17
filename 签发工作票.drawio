@@ -1,9 +1,108 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="eP9Ee0YgzNFQCSW39wbc">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;签发工作票&lt;/span&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="480" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-2" value="接收请求" style="swimlane;html=1;startSize=20;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-1">
+          <mxGeometry y="20" width="160" height="660" as="geometry">
+            <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-2">
+          <mxGeometry x="30" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-59" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;请求参数转换成工作票变更入参对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-2">
+          <mxGeometry x="30" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-2" source="Tl33DAf2tYPMXCIfwvum-3" target="Tl33DAf2tYPMXCIfwvum-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="160" />
+              <mxPoint x="80" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-4" value="工作票更新" style="swimlane;html=1;startSize=20;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-1">
+          <mxGeometry x="160" y="20" width="160" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-4" source="Tl33DAf2tYPMXCIfwvum-6" target="Tl33DAf2tYPMXCIfwvum-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-6" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;参数转换成工作票主记录&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-4">
+          <mxGeometry x="30" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-7" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;更新工作票主记录&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-4">
+          <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-8" value="子表数据保存" style="swimlane;html=1;startSize=20;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-1">
+          <mxGeometry x="320" y="20" width="160" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-8" source="Tl33DAf2tYPMXCIfwvum-10" target="Tl33DAf2tYPMXCIfwvum-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-10" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;安全措施记录保存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-8">
+          <mxGeometry x="30" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-8" target="Tl33DAf2tYPMXCIfwvum-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="518" />
+              <mxPoint x="10" y="690" />
+              <mxPoint x="80" y="690" />
+            </Array>
+            <mxPoint x="30" y="517.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Tl33DAf2tYPMXCIfwvum-17">
+          <mxGeometry x="-0.9094" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-8" source="Tl33DAf2tYPMXCIfwvum-50" target="Tl33DAf2tYPMXCIfwvum-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-50" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;工作终结数据保存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-8">
+          <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-8" source="Tl33DAf2tYPMXCIfwvum-53" target="Tl33DAf2tYPMXCIfwvum-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-53" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;工作许可数据保存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-8">
+          <mxGeometry x="30" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-8" source="Tl33DAf2tYPMXCIfwvum-54" target="Tl33DAf2tYPMXCIfwvum-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-54" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;配电安全措施数据保存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-8">
+          <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-39" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;成功返回&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="Tl33DAf2tYPMXCIfwvum-8">
+          <mxGeometry x="30" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-1" source="Tl33DAf2tYPMXCIfwvum-7" target="Tl33DAf2tYPMXCIfwvum-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="400" />
+              <mxPoint x="310" y="400" />
+              <mxPoint x="310" y="160" />
+              <mxPoint x="400" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tl33DAf2tYPMXCIfwvum-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Tl33DAf2tYPMXCIfwvum-1" source="Tl33DAf2tYPMXCIfwvum-59" target="Tl33DAf2tYPMXCIfwvum-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="300" />
+              <mxPoint x="150" y="300" />
+              <mxPoint x="150" y="160" />
+              <mxPoint x="240" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
