@@ -1,9 +1,108 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="_SKZF3xRPZdA-DzyytQg">
-    <mxGraphModel>
+    <mxGraphModel dx="1044" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dN-KAycJ_kGS0K469t97-1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;延期工作票&lt;/span&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="480" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-2" value="接收请求" style="swimlane;html=1;startSize=20;" vertex="1" parent="dN-KAycJ_kGS0K469t97-1">
+          <mxGeometry y="20" width="160" height="660" as="geometry">
+            <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="dN-KAycJ_kGS0K469t97-2">
+          <mxGeometry x="30" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;请求参数转换成工作票变更入参对象&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="dN-KAycJ_kGS0K469t97-2">
+          <mxGeometry x="30" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-2" source="dN-KAycJ_kGS0K469t97-3" target="dN-KAycJ_kGS0K469t97-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="160" />
+              <mxPoint x="80" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-6" value="工作票更新" style="swimlane;html=1;startSize=20;" vertex="1" parent="dN-KAycJ_kGS0K469t97-1">
+          <mxGeometry x="160" y="20" width="160" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-6" source="dN-KAycJ_kGS0K469t97-8" target="dN-KAycJ_kGS0K469t97-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;参数转换成工作票主记录&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="dN-KAycJ_kGS0K469t97-6">
+          <mxGeometry x="30" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;更新工作票主记录&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="dN-KAycJ_kGS0K469t97-6">
+          <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-10" value="子表数据保存" style="swimlane;html=1;startSize=20;" vertex="1" parent="dN-KAycJ_kGS0K469t97-1">
+          <mxGeometry x="320" y="20" width="160" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-10" source="dN-KAycJ_kGS0K469t97-12" target="dN-KAycJ_kGS0K469t97-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-12" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;安全措施记录保存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="dN-KAycJ_kGS0K469t97-10">
+          <mxGeometry x="30" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="518" />
+              <mxPoint x="10" y="690" />
+              <mxPoint x="80" y="690" />
+            </Array>
+            <mxPoint x="30" y="517.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dN-KAycJ_kGS0K469t97-13">
+          <mxGeometry x="-0.9094" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-10" source="dN-KAycJ_kGS0K469t97-16" target="dN-KAycJ_kGS0K469t97-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-16" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;工作终结数据保存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="dN-KAycJ_kGS0K469t97-10">
+          <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-10" source="dN-KAycJ_kGS0K469t97-18" target="dN-KAycJ_kGS0K469t97-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-18" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;工作许可数据保存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="dN-KAycJ_kGS0K469t97-10">
+          <mxGeometry x="30" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-10" source="dN-KAycJ_kGS0K469t97-20" target="dN-KAycJ_kGS0K469t97-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-20" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;配电安全措施数据保存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="dN-KAycJ_kGS0K469t97-10">
+          <mxGeometry x="30" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-21" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;成功返回&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="dN-KAycJ_kGS0K469t97-10">
+          <mxGeometry x="30" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-1" source="dN-KAycJ_kGS0K469t97-9" target="dN-KAycJ_kGS0K469t97-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="400" />
+              <mxPoint x="310" y="400" />
+              <mxPoint x="310" y="160" />
+              <mxPoint x="400" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dN-KAycJ_kGS0K469t97-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dN-KAycJ_kGS0K469t97-1" source="dN-KAycJ_kGS0K469t97-4" target="dN-KAycJ_kGS0K469t97-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="300" />
+              <mxPoint x="150" y="300" />
+              <mxPoint x="150" y="160" />
+              <mxPoint x="240" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
